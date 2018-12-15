@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Food</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card *ngFor="let f of food">
+    <img [src]="f.image"/>
+    <ion-card-content>
+      <ion-card-title>
+        {{f.title}}
+      </ion-card-title>
+      <p>{{f.price}}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,98 @@
+{
+  "food": [
+    {
+      "id": 1,
+      "title": "Pizza",
+      "price": "22$",
+      "image": "https://images.pexels.com/photos/2232/vegetables-italian-pizza-restaurant.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+      "id": 2,
+      "title": "Beef",
+      "price": "72$",
+      "image": "https://images.pexels.com/photos/299351/pexels-photo-299351.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+      "id": 3,
+      "title": "Pork",
+      "price": "38$",
+      "image": "https://images.pexels.com/photos/209459/pexels-photo-209459.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+      "id": 4,
+      "title": "Chicken",
+      "price": "2$",
+      "image": "https://images.pexels.com/photos/265393/pexels-photo-265393.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+      "id": 5,
+      "title": "Lamb",
+      "price": "54$",
+      "image": "https://images.pexels.com/photos/675951/pexels-photo-675951.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+      "id": 6,
+      "title": "Pasta",
+      "price": "20$",
+      "image": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    }
+  ],
+  "desserts": [
+    {
+      "id": 1,
+      "title": "Blur Cake",
+      "price": "12$",
+      "image": "https://images.pexels.com/photos/360940/pexels-photo-360940.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+      "id": 2,
+      "title": "Chocolate Cake",
+      "price": "15$",
+      "image": "https://images.pexels.com/photos/132694/pexels-photo-132694.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+      "id": 3,
+      "title": "Cheese Cake",
+      "price": "18$",
+      "image": "https://images.pexels.com/photos/1098592/pexels-photo-1098592.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    }
+  ],
+  "drinks": [
+    {
+      "id": 1,
+      "title": "Beer",
+      "price": "2$",
+      "image": "https://images.pexels.com/photos/1571701/pexels-photo-1571701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+      "id": 2,
+      "title": "Wine",
+      "price": "12$",
+      "image": "https://images.pexels.com/photos/935240/pexels-photo-935240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+      "id": 3,
+      "title": "Martini",
+      "price": "18$",
+      "image": "https://images.pexels.com/photos/1418358/pexels-photo-1418358.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+      "id": 4,
+      "title": "Soda",
+      "price": "2$",
+      "image": "https://images.pexels.com/photos/926569/pexels-photo-926569.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+      "id": 5,
+      "title": "Whiskey",
+      "price": "24$",
+      "image": "https://images.pexels.com/photos/339696/pexels-photo-339696.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+      "id": 6,
+      "title": "Gin",
+      "price": "20$",
+      "image": "https://images.pexels.com/photos/616836/pexels-photo-616836.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    }
+  ]
+}

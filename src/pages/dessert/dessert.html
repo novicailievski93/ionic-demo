@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Desserts</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card *ngFor="let desert of desserts">
+    <img [src]="desert.image"/>
+    <ion-card-content>
+      <ion-card-title>
+        {{desert.title}}
+      </ion-card-title>
+      <p>{{desert.price}}</p>
+    </ion-card-content>
+    <ion-row>
+      <ion-col col-2>
+        <button ion-button icon-start clear small>
+          <ion-icon name="thumbs-up"></ion-icon>
+          <div>12 Likes</div>
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+</ion-content>

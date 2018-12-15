@@ -11,7 +11,11 @@
       <ion-card-title>
         {{f.title}}
       </ion-card-title>
-      <p>{{f.price}}</p>
+        <p>{{f.price}}</p>
+      <div class="order-text"
+           (click)="showConfirm()">
+        Want to order this?
+      </div>
     </ion-card-content>
   </ion-card>
 </ion-content>

@@ -12,14 +12,10 @@
         {{desert.title}}
       </ion-card-title>
       <p>{{desert.price}}</p>
+      <div class="order-text"
+           (click)="showConfirm()">
+        Want to order this?
+      </div>
     </ion-card-content>
-    <ion-row>
-      <ion-col col-2>
-        <button ion-button icon-start clear small>
-          <ion-icon name="thumbs-up"></ion-icon>
-          <div>12 Likes</div>
-        </button>
-      </ion-col>
-    </ion-row>
   </ion-card>
 </ion-content>

@@ -11,6 +11,7 @@ import {StatusBar} from '@ionic-native/status-bar';
 import {SplashScreen} from '@ionic-native/splash-screen';
 import {ApiService} from "../providers/api.service";
 import {HttpClient, HttpClientModule} from "@angular/common/http";
+import {ComponentsModule} from "../components/components.module";
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import {HttpClient, HttpClientModule} from "@angular/common/http";
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
-    HttpClientModule
+    HttpClientModule,
+    ComponentsModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [

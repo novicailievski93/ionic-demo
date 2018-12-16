@@ -1,0 +1,13 @@
+<ion-card *ngFor="let menuItem of menuItems">
+  <img [src]="menuItem.image"/>
+  <ion-card-content>
+    <ion-card-title>
+      {{menuItem.title}}
+    </ion-card-title>
+    <p>{{menuItem.price}}</p>
+    <div class="order-text"
+         (click)="showConfirm()">
+      Want to order this?
+    </div>
+  </ion-card-content>
+</ion-card>

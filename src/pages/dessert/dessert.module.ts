@@ -1,6 +1,7 @@
-import { NgModule } from '@angular/core';
-import { IonicPageModule } from 'ionic-angular';
-import { DessertPage } from './dessert';
+import {NgModule} from '@angular/core';
+import {IonicPageModule} from 'ionic-angular';
+import {DessertPage} from './dessert';
+import {ComponentsModule} from "../../components/components.module";
 
 @NgModule({
   declarations: [
@@ -8,6 +9,8 @@ import { DessertPage } from './dessert';
   ],
   imports: [
     IonicPageModule.forChild(DessertPage),
+    ComponentsModule
   ],
 })
-export class DessertPageModule {}
+export class DessertPageModule {
+}

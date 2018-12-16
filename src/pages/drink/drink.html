@@ -5,17 +5,5 @@
 </ion-header>
 
 <ion-content padding>
-  <ion-card *ngFor="let drink of drinks">
-    <img [src]="drink.image"/>
-    <ion-card-content>
-      <ion-card-title>
-        {{drink.title}}
-      </ion-card-title>
-      <p>{{drink.price}}</p>
-      <div class="order-text"
-           (click)="showConfirm()">
-        Want to order this?
-      </div>
-    </ion-card-content>
-  </ion-card>
+  <menu-items [menuItems]="drinks"></menu-items>
 </ion-content>
